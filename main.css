@@ -1,0 +1,87 @@
+body
+{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+ 
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+ 
+}
+
+body
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+h1
+{
+    text-align: center;
+    padding: 0%;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    text-rendering: auto;
+    text-shadow: 1px 1px 4px whitesmoke;
+    margin-top: 10px;
+}
+
+nav
+{
+    position: fixed;
+    bottom: 0;
+    padding: 1.25em 10em;
+    text-decoration: dashed;
+}
+
+footer
+{
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding: 1px 0;
+    font-size: 5px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(17, 20, 20);
+    text-decoration: wavy;
+}
+
+button
+{
+    background-color: rgb(122, 116, 116);
+    color:white;
+    padding: 16px, 32px;
+    transition-duration: .9s;
+    cursor: crosshair;
+    border: none;
+}
+
+#PushButton
+{
+    background-color: rgb(122, 116, 116);
+    color:white;
+    padding: 16px, 32px;
+    transition-duration: .9s;
+    cursor: crosshair;
+    border: none;
+}
+
+#HoverButton
+{
+    background-color: rgb(122, 116, 116);
+    color:white;
+    padding: 16px, 32px;
+    transition-duration: .9s;
+    cursor: crosshair;
+    border: none;
+}
